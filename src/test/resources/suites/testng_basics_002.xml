@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="url" value="https://sso.teachable.com/secure/9521/identity/sign_up/email"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/chandu/IdeaProjects/javalearn/src/test/java/TestNG_practice/TestNGBasics_002.java">
+        <classes>
+            <class name="TestNG_practice.TestNGBasics_002">
+                <methods>
+                    <include name="signUp"/>
+                    <include name="login"/>
+                    <include name="searchItem"/>
+                    <include name="addItemsToTheCart"/>
+                    <include name="purchaseItems"/>
+                    <include name="logOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

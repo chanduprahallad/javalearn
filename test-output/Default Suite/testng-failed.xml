@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="javalearn(failed)">
+    <classes>
+      <class name="TestNG_practice.TestNGBasics_002">
+        <methods>
+          <include name="login"/>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- TestNG_practice.TestNGBasics_002 -->
+    </classes>
+  </test> <!-- javalearn(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
